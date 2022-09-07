@@ -1,0 +1,79 @@
+/* stylelint-disable declaration-block-semicolon-space-before */
+/* stylelint-disable declaration-colon-space-after */
+/* stylelint-disable no-missing-end-of-source-newline */
+/* stylelint-disable indentation */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.m-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.p-color {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 3, 139);
+}
+
+.navigation-link {
+    border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+    border-bottom: 2px solid yellowgreen;
+    transition: 0.5s ease;
+}
+
+.main-container {
+    min-height: 30vh;
+}
+
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_row img {
+   width: auto;
+   height: 26rem;
+}
+
+.main_row h1 {
+    font-size: 3rem;
+}
+
+#about {
+    background: rgb(206, 199, 162);
+    border-radius: 0.5rem;
+}
+
+.card {
+    border-bottom: 8px solid red;
+}
+
+#social-media {
+    background-color: aquamarine;
+}
+
+.media-link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid rgb(132, 0, 255);
+    border-radius: 0.5rem;
+}
+
+#social-mediaw:hover {
+    background-color: rgb(185, 255, 127);
+}
+
+footer {
+    text-align: center;
+}
